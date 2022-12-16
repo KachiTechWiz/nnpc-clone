@@ -14,6 +14,7 @@ body{
     top: -20px;
     background-color: white;
     position: fixed;
+    z-index: 1000;
 }
 .never-line{
     width: 1150px;
@@ -82,6 +83,7 @@ button{
 .pic{
     background-image: url(/nnpc-sit.jpeg);
     height: 1000px;
+    z-index: -1;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -91,6 +93,7 @@ button{
     top: 150px;
     font-size: 46px;
     font-weight: 800;
+    /* z-index: 1; */
     left: 200px;
 }
 .who-are-we{
@@ -272,7 +275,7 @@ p{
     font-size: 20px;
     position: relative;
     top: 90px;
-    left: -100px; 
+    left: -90px; 
 }
 .one{
     position: relative;
@@ -384,12 +387,12 @@ p{
     left: 50px;
     justify-content: center;
 }
-.never-miss{
+.never-miss1{
     position: relative;
     left: 100px;
+    color: black;
     z-index: -1;
     top: -600px;
-
 }
 
 .crude-oil-mark-pic{
@@ -403,6 +406,141 @@ p{
     left: 100px;
     background-repeat: no-repeat;
 }
+.nnpc-lim{
+    position: relative;
+    left: 560px;
+    top: 20px;
+    font-weight: 400;
+}
+.line01{
+    width: 300px;
+    height: 1px;
+    position: relative;
+    top: 20px;
+    background-color: black;
+}
+.read-post{
+    color: green;
+    font-weight: 500;
+    font-size: 11px;
+    top: 20px;
+    left: -210px;
+}
+
+.nnpc-limited-disclosures{
+    position: relative;
+    left: 900px;
+    top: -80px;
+    font-weight: 400;
+}
+
+.read-post02{
+    color: green;
+    position: relative;
+    font-weight: 500;
+    font-size: 11px;
+    top: -45px;
+    left: 910px;
+}
+.line02{
+    background-color: black;
+    height: 1px;
+    position: relative;
+    left: 900px;
+    width: 300px;
+    top: -50px;
+}
+.nnpc-does{
+    left: 560px;
+    font-weight: 400;
+    position: relative;
+}
+.read-post03{
+    color: green;
+    position: relative;
+    left: 565px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.line03{
+    background-color: black;
+    height: 1px;
+    position: relative;
+    left: 560px;
+    width: 300px;
+    top: 0px;
+}
+
+.nig-moro{
+    position: relative;
+    left: 900px;
+    top: -115px;
+    font-weight: 400;
+}
+
+.read-yellow{
+    background-color: yellow;
+    width: 140px;
+    position: relative;
+    top: -81px;
+    height: 50px;
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.nov{
+    color: rgb(144, 142, 142);
+    position: relative;
+    left: 300px;
+    top: -120px;
+}
+.nov-line{
+    width: 1000px;
+    height: 1px;
+    position: relative;
+    top: -114px;
+    background-color: black;
+}
+.readd{
+    color: green;
+    position: relative;
+    left: 915px;
+    top: -105px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.line-{
+    background-color: black;
+    height: 1px;
+    position: relative;
+    left: 900px;
+    width: 300px;
+    top: -59px;
+}
+
+.view-all-news{
+    color: yellow;
+    background-color: rgb(3,20,27);
+    position: relative;
+    left: 700px;
+    width: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+}
+.van-left{
+    background-color: rgb(3,20,27);
+    position: relative;
+    left: 1000px;
+    color: yellow;
+    width: 50px;
+    top: -78px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 10px;
+    height: 53px;
+}
+
 
 .investors{
     border: 0px solid;
@@ -448,7 +586,7 @@ p{
     display: flex;
     z-index: -1;
 }
-.side-div{
+    .side-div{
     background-color: rgb(3, 20, 27);
     border: 1px solid rgb(108, 107, 107);
     border-left:  none;
@@ -465,7 +603,7 @@ img{
 .nnpc-chart{
     background-image: url(/Screenshot\ 2022-12-12\ 120828.png);
     height: 300px;
-    top: 50px;
+    top: -120px;
     position: relative;
     left: 0px;
     background-size: contain;
@@ -479,12 +617,6 @@ img{
     border-left: none;
     border-right:none ;
     width: 1520px;
-}
-
-.never-miss{
-    color: white;
-    position: relative;
-    top: 100px;
 }
 
 .nnpc-list{
@@ -503,7 +635,7 @@ img{
 .for-today{
     color: white;
     position: relative;
-    left: 120px;
+    left: 90px;
     top: 50px;
     font-size: 15px;
 }
@@ -518,6 +650,8 @@ img{
 @media only screen and (max-width:600px){
     *{
         box-sizing: border-box; 
+        padding: 0;
+        margin: 0;
     }
     .logo{
         position: relative;
@@ -549,7 +683,7 @@ img{
     .who-are-we{
     color: black;
     position: relative;
-    top: 350px;
+    top: 300px;
     border: none;
     width: 200px;
     height: 45px;
@@ -563,7 +697,7 @@ img{
     .sub{
         color: black;
         position: relative;
-        top: 305px;
+        top: 255px;
         border: none;
         padding-top: 10px;
         padding-left: 15px;
@@ -602,8 +736,8 @@ img{
         width: 300px;
         height: 400px;
         position: relative;
-        left: 20px;
-        top: -420px;
+        left: 35px;
+        margin-top: 320px;
     }
     .workers{
         position: relative;
@@ -611,10 +745,9 @@ img{
         left: -170px;
     }
     .oil{
-        /* background-color: red; */
         position: relative;
         left: 100px;
-        top: -90px;
+        top: 10px;
         color: black;
     }
     .ops{
@@ -633,24 +766,100 @@ img{
     }
     .landscape{
         position: relative;
-        top: -550px;
+        top: -500px;
+        height: 500px;
     }
     .yellow-circle{
         display: none;
     }
     .pic-land-scape{
-        height: 700px;
+        height: 500px;
         width: 950px;
-        top: -41
-        0px;
+        top: -201px;
         position: relative;
-        left: -550px;
+        right: 250px;
         background-size: cover;
     }
     .fourty{
         position: relative;
-        top: 100px;
+        top: 00px;
         left: -20px;
+    }
+    .wehavecome{
+        display: none;
+    }
+    .never-miss1{
+        position: relative;
+        top: -435px;
+        left: 70px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .never-line{
+        position: relative;
+        margin-top: 190px;
+        left: 10px;
+        width: 350px;
+    }
+    
+    .crude-oil-mark-pic{
+        position: relative;
+        width: 400px;
+        margin-top: 43px;
+        margin-left: -100px;
+        background-size: contain;
+    }
+    .read-yellow{
+        position: relative;
+        top: -38px;
+    }
+    .nov-line{
+        position: relative;
+        top: -55px;
+    }
+    .nov{
+        position: relative;
+        top: -70px;
+        left: 210px;
+    }
+    .nnpc-lim{
+        position: relative;
+        left: 15px;
+        top: 250px;
+        margin-top: 100px;
+        text-decoration: underline 1px solid blue;
+    }
+    .nnpc-limited-disclosures{
+        position: relative;
+        left: 15px;
+        top: 300px;
+        text-decoration: underline 1px solid blue;
+    }
+    .nnpc-does{
+        position: relative;
+        left: 15px;
+        top: 350px;
+        text-decoration: underline 1px solid blue;
+    }
+    .nig-moro{
+        position: relative;
+        left: 15px;
+        top: 390px;
+        text-decoration: underline 1px solid blue;
+    }
+    
+    .investors{
+        position: relative;
+        top: -260px;
+        left: 13px;
+        width: 350px;
+    }
+    .woman-shaking{
+        position: relative;
+        top: 120px;
+        left: -99px;
+        width: 350px;
+        height: 250px;
     }
 }
 
