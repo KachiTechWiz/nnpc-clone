@@ -648,10 +648,13 @@ img{
 }
 
 @media only screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;    
+    }
     *{
         box-sizing: border-box; 
         padding: 0;
-        margin: 0;
     }
     .logo{
         position: relative;
